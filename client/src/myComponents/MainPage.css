@@ -1,0 +1,71 @@
+/* Main Page Styles */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-page-container {
+  /*image setup*/
+  background-image: url("./images/mainResto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-setup*/
+  background-position: center;
+
+  padding-top: 200px;
+  width: 90%;
+  height: 70vh;
+  margin: 0 auto;
+  
+  display: flex;
+  position:a;
+ 
+}
+.main-page {
+  animation: fadeInUp 2s ease-out forwards;
+  opacity: 0;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: #0a0a0a 3px 3px;
+  width: 50%;
+  height: 50vh;
+  color: #fff4f4;
+  text-transform: capitalize;
+  text-align: center;
+  align-items: center;
+}
+
+.main-page-p {
+  font-size: 2em;
+}
+.main-page-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 50%;
+  justify-content: space-evenly;
+}
+.main-page-button {
+  
+  color: #fff9f9;
+  background-color: rgba(248, 126, 11);
+  padding: 10px;
+  width: 200px;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+  flex-flow: column;
+  cursor: pointer;
+}
+
+.main-page button:hover {
+  background-color: #eb710d; /* Lighter gray on hover */
+}

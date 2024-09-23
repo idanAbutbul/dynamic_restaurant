@@ -1,0 +1,82 @@
+.user-reservation-container {
+  background-image: url("./images/reservation.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-setup*/
+  background-position: center;
+
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-shadow: #000000 3px 3px;
+  /*scrolling inside the page*/
+
+  /*edit background colors*/
+  background-color: #141c20;
+  background-blend-mode: difference;
+}
+.user-reservation-h1 {
+  display: flex;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+  align-items: center;
+  justify-items: center;
+  font-size: 4em;
+}
+.user-reservation {
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 50%;
+  height: fit-content;
+  padding: 10px;
+  background-color: rgba(82, 82, 82, 0.1);
+}
+.user-reservation-item {
+  color: rgb(253, 253, 253);
+  display: block;
+  font-size: 2em;
+  font-family:'Amaranth';
+  font-style:normal;
+  font-weight: bolder ;
+  border-bottom: #000000 2px solid;
+
+  
+}
+
+.user-reservation-detail::after {
+  content: "\A";
+  display: block;
+}
+
+.user-reservation-cancel-button {
+  background-color: #ff1100;
+
+  color: white;
+  font-size: 30px;
+  width: fit-content;
+  
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.user-reservation-cancel-button:hover {
+  background-color: #f84040be;
+}
+.user-reservation-difault-txt {
+    color: rgb(253, 253, 253);
+    font-size: 2em;
+}

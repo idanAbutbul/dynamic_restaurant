@@ -1,0 +1,110 @@
+/* admin panel */
+.admin-panel-layout {
+  margin: 0 auto;
+  background-image: url("./images/layoutTable.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  width: 90%;
+  height: 70vh;
+  
+
+  color: rgb(255, 253, 253);
+}
+/* side bar panel */
+.left-side-container {
+  border: #fcf6f6 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  width: 10%;
+  
+  padding: 20px;
+  
+  position: absolute;
+  margin-bottom: -50px;
+}
+
+.table-option {
+  border: #fcf6f6 1px solid;
+  background-color: #000000;
+  justify-items: center;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  padding: 1px;
+  margin: 10px 0px;
+
+  border-radius: 6px;
+}
+.table-option:hover {
+  background-color: #cac8c8;
+}
+
+.dropzone-container {
+
+  border: #9b1818d3 1px solid;
+  background-image: url("./images/layoutTable.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  float: inline-end;
+
+  width: 85%;
+  height: 50vh;
+ 
+  
+}
+.dropzone-item{
+  border: #f3f3f3d3 1px solid;
+  position: relative;
+        width: 100%;
+        height: 50vh;
+}
+.delet-table-button {
+  border: #fcf6f6 1px solid;
+  background-color: #bd2f2f;
+  color: #fcf6f6;
+  
+  align-items: center;
+  padding: 4px;
+  margin-top: 10px;
+}
+.save-layout-button{
+  border: #fcf6f6 1px solid;
+  background-color: #bd2f2f;
+  color: #fcf6f6;
+  padding: 10px 20px;
+
+  width: 10%;
+
+       margin-top: 50vh;
+        left: 50%;
+        border-radius: 30px;
+
+        position: absolute;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  
+ 
+}
+.save-layout-button:hover{
+  background-color: #fd6b6b;
+}
+.table-option:hover {
+  background-color: #cac8c8;
+}

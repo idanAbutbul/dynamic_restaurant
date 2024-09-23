@@ -1,0 +1,97 @@
+/*reservation settings = parrent component*/
+.reservation-container {
+  /*image setup*/
+  background-image: url("./images/layout.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding-top: 200px;
+
+  width: 90%;
+  height: 70vh;
+  margin: 0 auto;
+}
+.reservation-container-h1 {
+  color: #ffffff;
+  text-shadow: #000000 3px 3px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -150px;
+  width: 50%;
+  font-size: 3rem;
+}
+/*reservation form settin = children component*/
+.reservation-form-container {
+ 
+
+  margin: 0 auto;
+  margin-top: -2px;
+  display: flex;
+  flex-direction: column;
+  
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  width: 25%;
+  height: 250px;
+  font-size: 2rem;
+  color: #fcf6f6;
+}
+
+.reservation-group-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    text-align: center;
+  font-size: 1rem;
+  border-radius: 30px;
+  color: #000000;
+  height: 1.5rem;
+  width: 200px;
+}
+
+.location-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+
+  background-color: #ff7606;
+  color: rgb(255, 255, 255);
+
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.location-toggle:hover {
+  background-color: #ffae21;
+}
+
+.reservation-group-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+
+  background-color: #ff7606;
+  color: rgb(255, 255, 255);
+
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.my-reservation-button {
+  display: flex;
+  font-size: 1.5rem;
+
+  margin: 20px auto;
+
+  background-color: #ff7606;
+  color: rgb(255, 255, 255);
+}
+.my-reservation-button:hover{
+    background-color: #ffae21;
+}
+.reservation-group-button:hover {
+  background-color: #ffae21;
+}

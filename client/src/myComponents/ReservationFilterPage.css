@@ -1,0 +1,95 @@
+/* Reservation Filter Page */
+.reservation-admin-dashboard-container {
+  background-color: #ffffff;
+  border: 2px solid #7d7d7d;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: fit-content;
+}
+.filter-h1 {
+  color: rgb(0, 0, 0);
+  font-size: 3em;
+
+  
+}
+.filters-dashboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  justify-content: space-evenly;
+  width: 70%;
+  border-bottom: #333 2px solid;
+  
+}
+.dashboard{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: fit-content;
+  
+}
+.filter-selector {
+  border: 2px solid #cecece;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+  font-size: 1.5rem;
+ 
+  border-radius: 5px;
+  background-color: #c2c2c2;
+}
+.filter-selector:hover {
+  background-color: #cecccc;
+}
+
+.reservations-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-item {
+  background-color: #f5f5f5;
+
+  border: 1px solid #ccc;
+}
+
+.reservations-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse; /* Ensures the borders don't double up */
+}
+
+.reservations-table table {
+  width: 100%;
+  border: 2px solid #333; /* Border around the entire table */
+}
+
+.reservations-table th,
+.reservations-table td {
+  border: 1px solid #333; /* Borders around individual cells */
+  padding: 8px;
+  text-align: left;
+}
+
+.reservations-table th {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #333; /* Thicker border for the header */
+}
+
+.reservations-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.reservations-table tr:hover {
+  background-color: #f1f1f1;
+}
